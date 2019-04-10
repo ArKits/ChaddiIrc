@@ -11,12 +11,13 @@ class InputChangeHandler(FileSystemEventHandler):
         #print(f'event type: {event.event_type}  path : {event.src_path}')
         if event.src_path == "./input/input.txt":
             
-            with open("./input/input.txt") as f:
+            # Check mains for now
+            with open("./input/1001134672005.txt") as f:
                 data = f.readlines()
             lastline = data[-1]
             f.close()
 
-            print("Noticed changed in input.txt: " + lastline)
+            print("Noticed changed in 1001134672005.txt: ")
 
             bot.send_msg(lastline)
 

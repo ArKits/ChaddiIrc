@@ -2,7 +2,7 @@
 server = "chat.freenode.net"
 
 # Channel to join
-channel = "#arkits"
+channel = "#bakchodi"
 
 # Bot nickname
 bot_nick = "ChaddiBot"
