@@ -1,1 +1,1 @@
-nohup python3 bot_chaddi.py >/dev/null 2>&1 & 
+nohup python3 bot_irc.py >/dev/null 2>&1 & 
