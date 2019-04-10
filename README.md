@@ -1,2 +1,3 @@
-# ChaddiIrc
+# chaddi-irc
+
 ChaddiBot for IRC
