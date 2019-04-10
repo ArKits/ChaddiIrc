@@ -17,7 +17,7 @@ class InputChangeHandler(FileSystemEventHandler):
             lastline = data[-1]
             f.close()
 
-            print("Noticed changed in 1001134672005.txt: ")
+            print("Noticed changed in 1001134672005.txt")
 
             bot.send_msg(lastline)
 
